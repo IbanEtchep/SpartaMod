@@ -1,0 +1,99 @@
+database:
+  host: "localhost"
+  port: "3306"
+  database: "SpartaWarns"
+  username: "mrlaikz"
+  password: "mdrmdrmdr"
+  table: "Sanctions"
+
+message:
+  syntax: "&cMauvaise Syntaxe"
+  invalid_player: "&cLe joueur sn'existe pas !"
+  config_reload: "&aLa configuration a mise jour"
+  
+  avertissement: "&cTu dois avertir &c&l%player%"
+  
+commands:
+  mute: "msg MrLaikz mute %player%: %time% / %reason%"
+  tempban: "msg MrLaikz tempban %player%: %time% / %reason%"
+  ban: "msg MrLaikz ban %player%: %reason%"
+  warn: "msg MrLaikz warn %player%: %reason%"
+  clear: "msg Mrlaikz clear %player%"
+  kick: "msg MrLaikz kick %player% %reason%"
+  
+inventory:
+    
+  sanction:
+    name: "&6&lSanctions"
+    chat: 
+    
+      item: STONE
+      name: "&b&lChat"
+      enchant: false
+      
+      flood:
+        item: FEATHER
+        name: "&aFlood"
+        enchant: false
+      
+      spam:
+        item: DIAMOND
+        name: "&eSpam"
+        enchant: false
+        
+      insulte1:
+        item: TORCH
+        name: "&cInsulte 1"
+        enchant: false
+    
+      insulte2:
+        item: REDSTONE_LAMP
+        name: "&4Insulte 2"
+        enchant: true
+           
+           
+    game:
+    
+      item: BARRIER
+      name: "&c&lJeu"
+      enchant: false
+      
+      xray:
+        item: EMERALD
+        name: "&aX-Ray"
+        enchant: false
+        
+      cheat:
+        item: ELYTRA
+        name: "&eCheat"
+        enchant: false
+        
+      vol:
+        item: ANVIL
+        name: "&cVol"
+        enchant: false
+        
+      usebug:
+        item: BARRIER
+        name: "&4UseBug"
+        enchant: false
+    
+      eco:
+        item: GOLD_INGOT
+        name: "&6Economie"
+        enchant: false
+    
+      arnaque:
+        item: PAPER
+        name: "&5Economie"
+        enchant: false
+    
+      afk:
+        item: QUARTZ_BLOCK
+        name: "&9Anti-AFK"
+        enchant: false
+        
+      kill:
+        item: TORCH
+        name: "&4Kill"
+        enchant: false   

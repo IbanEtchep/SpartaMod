@@ -1,0 +1,9 @@
+name: SpartaMod
+version: 1.0
+author: Mrlaikz
+main: fr.mrlaikz.spartamod.SpartaMod
+commands:
+  sanction:
+    description: "Commande menu sanction"
+  sanctiongui:
+    description: "Commande auxiliaire menu sanction"
